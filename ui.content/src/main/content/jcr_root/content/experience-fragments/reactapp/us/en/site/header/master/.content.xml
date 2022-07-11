@@ -29,6 +29,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="reactapp/components/search"
                 searchRoot="/content/reactapp/us"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

@@ -1,26 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          jcr:primaryType="cq:Page">
+    jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-10-04T09:50:29.650+02:00"
+        cq:lastModified="{Date}2022-07-08T12:58:48.053-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/reactapp/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="React App Home Page"
-        sling:resourceType="reactapp/components/page">
+        jcr:title="React App - Login"
+        sling:resourceType="reactapp/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <text
+                <container
+                    cq:styleIds="[1657207885625]"
+                    jcr:created="{Date}2022-07-07T12:11:12.450-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-07T12:11:12.450-03:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="reactapp/components/text"
-                    text="&lt;p>Hello World!&lt;/p>"
-                    textIsRich="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                </text>
+                    sling:resourceType="reactapp/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                    <form
+                        jcr:created="{Date}2022-07-07T12:12:20.884-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-08T12:02:23.874-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactapp/components/content/form">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                    </form>
+                </container>
+                <container_1531483293
+                    cq:styleIds="[1657206614270]"
+                    jcr:created="{Date}2022-07-07T12:11:45.999-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-07T12:11:45.999-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="reactapp/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </container_1531483293>
             </responsivegrid>
         </root>
     </jcr:content>
