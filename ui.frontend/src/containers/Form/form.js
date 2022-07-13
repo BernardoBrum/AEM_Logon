@@ -1,7 +1,7 @@
 import React from "react";
+import { MapTo } from "@adobe/aem-spa-component-mapping";
 import { FormStyled } from "./form.styled";
 import Input from "../../components/Input/input";
-import { MapTo } from "@adobe/aem-spa-component-mapping";
 import Title from "../../components/Title/title";
 import { BiLockAlt } from "react-icons/bi";
 import { AiOutlineUser } from "react-icons/ai";

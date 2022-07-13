@@ -8,22 +8,24 @@ Bundle-Version: 1.0.0.SNAPSHOT
 Export-Package: com.reactapp.core.filters;version="1.0";uses:="javax.s
  ervlet",com.reactapp.core.listeners;version="1.0";uses:="org.apache.s
  ling.api.resource.observation",com.reactapp.core.models;version="1.0"
- ;uses:="javax.annotation,org.apache.sling.api.resource,org.apache.sli
- ng.models.annotations,org.apache.sling.models.annotations.injectorspe
- cific",com.reactapp.core.schedulers;version="1.0",com.reactapp.core.s
- ervlets;version="1.0";uses:="javax.servlet,org.apache.sling.api,org.a
- pache.sling.api.servlets"
-Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
- rsion="[1.29,2)",com.reactapp.core.filters;version="[1.0,2)",com.reac
- tapp.core.listeners;version="[1.0,2)",com.reactapp.core.models;versio
- n="[1.0,2)",com.reactapp.core.schedulers;version="[1.0,2)",com.reacta
- pp.core.servlets;version="[1.0,2)",javax.servlet;version="[2.6,3)",or
- g.apache.sling.api;version="[2.3,3)",org.apache.sling.api.request;ver
- sion="[2.6,3)",org.apache.sling.api.resource;version="[2.13,3)",org.a
- pache.sling.api.resource.observation;version="[1.2,2)",org.apache.sli
- ng.api.servlets;version="[2.3,3)",org.apache.sling.models.annotations
- ;version="[1.5,2)",org.apache.sling.models.annotations.injectorspecif
- ic;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+ ;uses:="com.adobe.cq.wcm.core.components.models,javax.annotation,org.
+ apache.sling.api.resource,org.apache.sling.models.annotations,org.apa
+ che.sling.models.annotations.injectorspecific",com.reactapp.core.sche
+ dulers;version="1.0",com.reactapp.core.servlets;version="1.0";uses:="
+ javax.servlet,org.apache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.acs.commons
+ .models.injectors.annotation;version="[3.6,4)",com.adobe.cq.wcm.core.
+ components.models;version="[12.25,13)",com.day.cq.wcm.api;version="[1
+ .29,2)",com.reactapp.core.filters;version="[1.0,2)",com.reactapp.core
+ .listeners;version="[1.0,2)",com.reactapp.core.models;version="[1.0,2
+ )",com.reactapp.core.schedulers;version="[1.0,2)",com.reactapp.core.s
+ ervlets;version="[1.0,2)",javax.servlet;version="[2.6,3)",org.apache.
+ sling.api;version="[2.3,3)",org.apache.sling.api.request;version="[2.
+ 6,3)",org.apache.sling.api.resource;version="[2.13,3)",org.apache.sli
+ ng.api.resource.observation;version="[1.2,2)",org.apache.sling.api.se
+ rvlets;version="[2.3,3)",org.apache.sling.models.annotations;version=
+ "[1.5,2)",org.apache.sling.models.annotations.injectorspecific;versio
+ n="[1.1,2)",org.slf4j;version="[1.7,2)"
 Private-Package: com.reactapp.core.models.impl
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
@@ -39,5 +41,6 @@ Service-Component: OSGI-INF/com.reactapp.core.filters.LoggingFilter.xm
  I-INF/com.reactapp.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/c
  om.reactapp.core.servlets.SimpleServlet.xml
 Sling-Model-Classes: com.reactapp.core.models.HelloWorldModel,com.reac
- tapp.core.models.impl.FormImpl
+ tapp.core.models.impl.FormImpl,com.reactapp.core.models.impl.HeaderIm
+ pl,com.reactapp.core.models.impl.ImageImpl
 
