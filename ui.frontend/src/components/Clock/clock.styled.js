@@ -7,15 +7,16 @@ const ClockStyled = styled.section`
   margin-top: 1%;
 
   h1 {
-    margin: 0;
     font-size: 144px;
     font-weight: 700;
     color: #222222;
     line-height: 120px;
+    margin: 0;
   }
 
   p {
     font-size: 14px;
+    color: #222222;
     margin: 0;
   }
 `;

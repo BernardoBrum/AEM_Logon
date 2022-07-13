@@ -10,30 +10,25 @@ const Weather = () => {
 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
-      let lat = position.coords.latitude
-      let lon = position.coords.longitude
-      console.log(lat)
-      console.log(lon)
+      let lat = position.coords.latitude;
+      let lon = position.coords.longitude;
 
-    fetch(
-      `https://api.weatherapi.com/v1/current.json?key=8eb8f003f8984fbe9a3172745220802&q=Carangola&aqi=no`
-    )
-      .then((answer) => answer.json())
-      .then((data) => {
-        console.log(data)
-        let temp = data.current.temp_c.toFixed() + "°";
-        let icon = data.current.condition.icon;
+      fetch(
+        `https://api.weatherapi.com/v1/current.json?key=8eb8f003f8984fbe9a3172745220802&q=${lat},${lon}`
+      )
+        .then((answer) => answer.json())
+        .then((data) => {
+          let temp = data.current.temp_c.toFixed() + "°";
+          let icon = data.current.condition.icon;
+          let city = data.location.name;
+          let region = data.location.region;
 
-        setTemp(temp);
-        setIcon(icon);
-
-        let city = data.location.name;
-        let region = data.location.region;
-
-        setCity(city);
-        setRegion(region);
-      });
-    })
+          setTemp(temp);
+          setIcon(icon);
+          setCity(city);
+          setRegion(region);
+        });
+    });
   }
 
   return (

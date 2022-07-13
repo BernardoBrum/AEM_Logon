@@ -41,6 +41,7 @@ Service-Component: OSGI-INF/com.reactapp.core.filters.LoggingFilter.xm
  I-INF/com.reactapp.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/c
  om.reactapp.core.servlets.SimpleServlet.xml
 Sling-Model-Classes: com.reactapp.core.models.HelloWorldModel,com.reac
- tapp.core.models.impl.FormImpl,com.reactapp.core.models.impl.HeaderIm
- pl,com.reactapp.core.models.impl.ImageImpl
+ tapp.core.models.impl.ContentImpl,com.reactapp.core.models.impl.FormI
+ mpl,com.reactapp.core.models.impl.HeaderImpl,com.reactapp.core.models
+ .impl.ImageImpl
 

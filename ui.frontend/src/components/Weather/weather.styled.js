@@ -12,13 +12,15 @@ div {
 }
 
 h1 {
-    margin: 0;
     font-size: 48px;
+    color: #222222;
+    margin: 0;
 }
 
 p {
-    margin: 0;
     font-size: 14px;
+    color: #222222;
+    margin: 0;
 }
 `
 
