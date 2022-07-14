@@ -34,15 +34,28 @@ public class ContentImpl
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text1;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String p1;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text2;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String p2;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text3;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String p3;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text4;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String p4;
 
     @Override
     public String getText1() {
         return text1;
+    }
+
+    @Override
+    public String getP1() {
+        return p1;
     }
 
     @Override
@@ -51,13 +64,28 @@ public class ContentImpl
     }
 
     @Override
+    public String getP2() {
+        return p2;
+    }
+
+    @Override
     public String getText3() {
         return text3;
     }
 
     @Override
+    public String getP3() {
+        return p3;
+    }
+
+    @Override
     public String getText4() {
         return text4;
+    }
+
+    @Override
+    public String getP4() {
+        return p4;
     }
 
 }

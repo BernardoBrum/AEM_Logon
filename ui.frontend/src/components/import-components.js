@@ -58,7 +58,6 @@ import {
 } from "@adobe/aem-core-components-react-base";
 
 //lazyload / code splitting example of an internal component
-const LazyTextComponent = withAsyncImport(() => import(`./Text/Text`));
 
 //lazyload / code splitting examples of external components
 const TitleV2 = withAsyncImport(() =>
@@ -109,12 +108,3 @@ MapTo("reactapp/components/container")(ContainerV1, {
  *
  * @type EditConfig
  */
-const TextEditConfig = {
-  emptyLabel: "Text",
-
-  isEmpty: function (props) {
-    return !props || !props.text || props.text.trim().length < 1;
-  },
-};
-
-MapTo("reactapp/components/text")(LazyTextComponent, TextEditConfig);

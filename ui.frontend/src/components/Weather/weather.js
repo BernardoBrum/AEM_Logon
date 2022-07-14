@@ -23,6 +23,10 @@ const Weather = () => {
           let city = data.location.name;
           let region = data.location.region;
 
+        if (city === "Divino Espirito Santo Do Carangola") {
+          city = "Divino"
+        } 
+
           setTemp(temp);
           setIcon(icon);
           setCity(city);

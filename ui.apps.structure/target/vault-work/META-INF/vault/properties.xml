@@ -4,7 +4,7 @@
 <comment>React App - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-07-13T16:52:59.700Z</entry>
+<entry key="created">2022-07-14T17:35:41.259Z</entry>
 <entry key="groupId">com.reactapp</entry>
 <entry key="name">reactapp.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

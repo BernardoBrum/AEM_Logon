@@ -31,10 +31,18 @@ public interface Content {
 
     String getText1();
 
+    String getP1();
+
     String getText2();
+
+    String getP2();
 
     String getText3();
 
+    String getP3();
+
     String getText4();
+
+    String getP4();
 
 }

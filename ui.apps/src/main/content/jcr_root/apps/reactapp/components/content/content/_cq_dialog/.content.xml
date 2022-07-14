@@ -38,21 +38,41 @@
                       jcr:primaryType="nt:unstructured"
                       name="./text1"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <p1 cq-msm-lockable="./p1"
+                   fieldLabel="Parágrafo 1"
+                   jcr:primaryType="nt:unstructured"
+                   name="./p1"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
                <text2 cq-msm-lockable="./text2"
                       fieldLabel="Frase 2"
                       jcr:primaryType="nt:unstructured"
                       name="./text2"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <p2 cq-msm-lockable="./p2"
+                   fieldLabel="Parágrafo 2"
+                   jcr:primaryType="nt:unstructured"
+                   name="./p2"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
                <text3 cq-msm-lockable="./text3"
                       fieldLabel="Frase 3"
                       jcr:primaryType="nt:unstructured"
                       name="./text3"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <p3 cq-msm-lockable="./p3"
+                   fieldLabel="Parágrafo 3"
+                   jcr:primaryType="nt:unstructured"
+                   name="./p3"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
                <text4 cq-msm-lockable="./text4"
                       fieldLabel="Frase 4"
                       jcr:primaryType="nt:unstructured"
                       name="./text4"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <p4 cq-msm-lockable="./p4"
+                   fieldLabel="Parágrafo 4"
+                   jcr:primaryType="nt:unstructured"
+                   name="./p4"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
             </items>
          </column>
       </items>
