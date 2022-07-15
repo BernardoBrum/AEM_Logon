@@ -4,7 +4,7 @@ const ClockStyled = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1%;
+  margin-top: 1.5%;
 
   h1 {
     font-size: 144px;
@@ -15,6 +15,7 @@ const ClockStyled = styled.section`
   }
 
   p {
+    font-weight: 500;
     font-size: 14px;
     color: #222222;
     margin: 0;

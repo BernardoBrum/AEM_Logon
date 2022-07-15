@@ -18,6 +18,7 @@ h1 {
 }
 
 p {
+    font-weight: 500;
     font-size: 14px;
     color: #222222;
     margin: 0;

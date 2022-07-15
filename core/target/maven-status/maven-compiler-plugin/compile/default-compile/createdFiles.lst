@@ -8,6 +8,7 @@ com\reactapp\core\schedulers\package-info.class
 com\reactapp\core\models\impl\HeaderImpl.class
 com\reactapp\core\listeners\SimpleResourceListener.class
 com\reactapp\core\schedulers\SimpleScheduledTask$Config.class
+com\reactapp\core\models\Footer.class
 com\reactapp\core\models\impl\ContentImpl.class
 com\reactapp\core\schedulers\SimpleScheduledTask.class
 com\reactapp\core\models\Image.class
@@ -16,4 +17,5 @@ com\reactapp\core\models\Content.class
 com\reactapp\core\servlets\SimpleServlet.class
 com\reactapp\core\models\Header.class
 com\reactapp\core\models\HelloWorldModel.class
+com\reactapp\core\models\impl\FooterImpl.class
 com\reactapp\core\models\impl\FormImpl.class

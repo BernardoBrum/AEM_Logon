@@ -2,7 +2,7 @@ import React from "react";
 import { ContentStyled } from "./content.styled";
 import { MapTo } from "@adobe/aem-spa-component-mapping";
 import UolBall from "../../assets/uolball.png";
-import Text from "../../components/Text/text";
+import Text from "../../components/Text/text.";
 
 const Content = ({text1, p1, text2, p2, text3, p3, text4, p4}) => {
   return (

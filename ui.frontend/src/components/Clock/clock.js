@@ -23,7 +23,7 @@ const Clock = () => {
       setDateState(
         `${switchDay[week]}, ${day} de ${switchMonth[month]} de ${year}`
       );
-    }, 100);
+    }, 1000);
   });
 
   return (

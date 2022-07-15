@@ -17,7 +17,7 @@ margin: 0;
 const Paragraph = styled.p`
 font-weight: 400;
 font-size: 24px;
-line-height: 36px;
+line-height: 24px;
 text-align: right;
 color: #222222;
 margin: 0;

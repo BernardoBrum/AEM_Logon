@@ -22,6 +22,7 @@ import "../components/Image/image"
 import "../containers/Form/form";
 import "../containers/Header/header"
 import "../containers/Content/content"
+import "../containers/Footer/footer"
 
 import { MapTo } from "@adobe/aem-react-editable-components";
 
