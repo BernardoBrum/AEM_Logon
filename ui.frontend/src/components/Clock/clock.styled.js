@@ -6,6 +6,14 @@ const ClockStyled = styled.section`
   align-items: center;
   margin-top: 1.5%;
 
+  @media (max-width: 1500px) {
+    margin-left: 5%;
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+
   h1 {
     font-size: 144px;
     font-weight: 700;

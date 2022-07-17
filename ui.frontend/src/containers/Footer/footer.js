@@ -1,10 +1,22 @@
-import React from "react";
 import { FooterStyled } from "./footer.styled";
 import { MapTo } from "@adobe/aem-spa-component-mapping";
 import Button from "../../components/Button/button";
 import Counter from "../../components/Counter/counter";
+import { useHistory } from "react-router-dom";
 
 const Footer = ({ text }) => {
+  const history = useHistory();
+
+  const Reset = () => {
+    localStorage.setItem("Name", "reset")
+  }
+
+  const Logout = () => {
+    history.push("/content/reactapp/us/en/login.html?wcmmode=disabled");
+    window.location.reload()
+    localStorage.clear()
+  };
+
   return (
     <FooterStyled>
       <div className="left">
@@ -18,7 +30,7 @@ const Footer = ({ text }) => {
         </span>
         <Counter />
       </div>
-        <Button />
+      <Button reset={Reset} logout={Logout} />
     </FooterStyled>
   );
 };

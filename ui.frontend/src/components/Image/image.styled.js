@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-const ImageStyled = styled.section`
-`
+const ImageStyled = styled.section``;
 
-export { ImageStyled }
+export { ImageStyled };

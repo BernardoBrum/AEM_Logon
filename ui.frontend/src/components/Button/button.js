@@ -1,13 +1,17 @@
-import React from 'react'
-import { ButtonContinue, ButtonLogout, ButtonDiv } from './button.styled'
+import React from "react";
+import { ButtonContinue, ButtonLogout, ButtonDiv } from "./button.styled";
 
-const Button = () => {
+const Button = ({ reset, logout }) => {
   return (
     <ButtonDiv>
-    <ButtonContinue>Continuar<br/>Navegando</ButtonContinue>
-    <ButtonLogout>Logout</ButtonLogout>
+      <ButtonContinue onClick={reset}>
+        Continuar
+        <br />
+        Navegando
+      </ButtonContinue>
+      <ButtonLogout onClick={logout}>Logout</ButtonLogout>
     </ButtonDiv>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

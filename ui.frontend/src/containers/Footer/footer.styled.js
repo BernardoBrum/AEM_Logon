@@ -13,16 +13,26 @@ const FooterStyled = styled.section`
   .left {
     display: flex;
     justify-content: flex-end;
-    box-sizing: border-box; 
+    box-sizing: border-box;
   }
 
   .right {
-      display: flex;
-      align-items: center;
-      border-left: 1px solid white;
-      box-sizing: border-box;
-      padding-left: 8%;
-      width: 40%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+    padding-left: 8%;
+    width: 40%;
+
+    @media (max-width: 1500px) {
+      padding-left: 2%;
+    }
+
+    @media (max-width: 900px) {
+      display: none;
+    }
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
   p {
@@ -33,6 +43,14 @@ const FooterStyled = styled.section`
     margin: 0;
     margin-right: 4%;
     width: 56%;
+
+    @media (max-width: 1500px) {
+      width: 90%;
+    }
+
+    @media (max-width: 900px) {
+      display: none;
+    }
   }
 
   span {

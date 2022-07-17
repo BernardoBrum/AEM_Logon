@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <div>
-        <img src={LogoBlack} alt="Compass logo" />
+        <img id="logo" src={LogoBlack} alt="Compass logo" />
       </div>
       <Clock />
       <Weather />

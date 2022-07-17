@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FormStyled = styled.form`
+const FormStyled = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,13 +17,6 @@ const FormStyled = styled.form`
     font-size: 30px;
     color: #e0e0e0;
     margin-top: 25%;
-  }
-
-  h3 {
-    color: #e9b425;
-    text-align: center;
-    visibility: hidden;
-    font-size: 16px;
   }
 
   button {

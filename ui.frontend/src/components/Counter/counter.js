@@ -1,19 +1,27 @@
 import React from "react";
 import { CounterStyled } from "./counter.styled";
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Counter = () => {
-  const [counter, setCounter] = useState(600);
+  let [counter, setCounter] = useState(600);
+  const history = useHistory();
 
+  localStorage.getItem("Name");
+  if (localStorage.Name === "reset") {
+    counter = "Infinity";
+  }
+  
   setTimeout(() => {
     if (counter > 0) {
       setCounter(counter - 1);
     }
-  }, 1000)
+  }, 1000);
 
   if (counter === 0) {
-    console.log("Login Page")
-  } 
+    history.push("content/reactapp/us/en/login.html?wcmmode=disabled");
+    window.location.reload();
+  }
 
   return (
     <CounterStyled>

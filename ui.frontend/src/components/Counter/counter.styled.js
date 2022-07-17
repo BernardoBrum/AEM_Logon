@@ -5,7 +5,12 @@ const CounterStyled = styled.section`
   flex-direction: column;
   align-items: center;
   margin-left: 5%;
-  width: 20%;
+  width: 40%;
+
+  @media (max-width: 1500px) {
+    width: 100%;
+    margin-left: 10%;
+  }
 
   h1 {
     font-size: 48px;

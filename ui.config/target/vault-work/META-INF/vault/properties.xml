@@ -4,7 +4,7 @@
 <comment>React App - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-07-15T02:09:49.213Z</entry>
+<entry key="created">2022-07-17T22:18:22.518Z</entry>
 <entry key="groupId">com.reactapp</entry>
 <entry key="name">reactapp.ui.config</entry>
 <entry key="description">UI config package for React App</entry>
