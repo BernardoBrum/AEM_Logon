@@ -6,6 +6,10 @@ const WeatherStyled = styled.section`
   align-items: flex-end;
   width: 300px;
 
+  @media (max-width: 768px) {
+    width: fit-content;
+  }
+
   div {
     display: flex;
     align-items: center;

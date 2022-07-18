@@ -7,9 +7,9 @@ const HeaderStyled = styled.section`
   box-sizing: border-box;
   padding: 1% 2%;
 
-  @media (max-width: 900px) {
-    #logo {
-      display: none;
+  @media (max-width: 768px) {
+    img {
+      height: 7vh;
     }
   }
 `;
